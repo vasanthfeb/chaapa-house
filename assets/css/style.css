@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Afacad+Flux:wght@100..1000&family=Comfortaa:wght@300..700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Jost:ital,wght@0,100..900;1,100..900&family=Lexend&family=Sen:wght@400..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -7,3 +7,44 @@
 .main-logo{
     width: 250px !important;
 }
+.nav-item a{
+    font-size: 18px;
+     font-family: "Lexend", sans-serif;
+     font-weight: 700;
+     text-transform: uppercase;
+     
+}
+.nav-item a:hover{
+    color: #009fa0;
+    text-decoration: 1.4px solid underline;
+    text-underline-offset: 5px;
+}
+.bg-light{
+    background-color: rgb(255, 255, 255) !important;
+}
+.active{
+    color: #009fa0 !important;
+    text-decoration: 1.4px solid underline;
+    text-underline-offset: 5px;
+    
+}
+.font_one{
+     font-family: "Lexend", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+@media only screen and (max-width:768px){
+    .main-logo{
+        width: 200px !important;
+    }
+}
+
+/* nav end */
+
+/* slide_container start */
+.slide_container{
+    height: 100vh;
+   background-image: linear-gradient(to left, #009fa0, #fff);
+}
+/* slide_container end */
