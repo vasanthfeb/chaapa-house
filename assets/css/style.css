@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Afacad+Flux:wght@100..1000&family=Comfortaa:wght@300..700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Jost:ital,wght@0,100..900;1,100..900&family=Lexend&family=Sen:wght@400..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans+Semi+Condensed:ital,wght@0,1..1000;1,1..1000&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -18,6 +19,10 @@
     color: #009fa0;
     text-decoration: 1.4px solid underline;
     text-underline-offset: 5px;
+    
+}
+.navbar-nav{
+    gap: 10px;
 }
 .bg-light{
     background-color: rgb(255, 255, 255) !important;
@@ -33,6 +38,27 @@
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
+}
+.font_two{
+    font-family: "Sofia Sans Semi Condensed", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+p{
+    font-size: 22px;
+}
+.about-p{
+    text-align: justify;
+    font-family: "Lexend", sans-serif;
+    color: rgb(99, 99, 99);
+}
+.text-color{
+    color: #009fa0;
+}
+.title{
+ font-family: "Sofia Sans Semi Condensed", sans-serif;
+color: #009fa0;
+font-weight: 700;
 }
 @media only screen and (max-width:768px){
     .main-logo{
