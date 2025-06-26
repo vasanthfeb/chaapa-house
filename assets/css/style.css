@@ -43,11 +43,5 @@
 /* nav end */
 
 /* slide_container start */
-.slide_container{
-    height: 100vh;
-   background-image: linear-gradient(to left, #009fa0, #fff);
-   position: relative;
-   
-}
 
 /* slide_container end */
