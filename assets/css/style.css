@@ -55,10 +55,18 @@ p{
 .text-color{
     color: #009fa0;
 }
+.text-icon{
+    width: 44px;
+    height: 44px;
+}
 .title{
  font-family: "Sofia Sans Semi Condensed", sans-serif;
 color: #009fa0;
 font-weight: 700;
+}
+.about_img{
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+    border-radius: 5px;
 }
 @media only screen and (max-width:768px){
     .main-logo{
