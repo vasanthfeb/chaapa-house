@@ -44,6 +44,12 @@
   font-optical-sizing: auto;
   font-style: normal;
 }
+.chaapa{
+    color: azure;
+    font-family: "Lexend", sans-serif;
+    font-weight: 700;
+    font-size: 70px;
+}
 p{
     font-size: 22px;
 }
@@ -68,9 +74,27 @@ font-weight: 700;
     box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
     border-radius: 5px;
 }
+.p-chaapa{
+    text-align: justify;
+    color: rgb(222, 222, 222);
+    font-family: "Lexend", sans-serif;
+}
+.btn-outline-danger{
+    border: 2px solid #fff;
+    color: #fff;
+    font-weight: 600;
+}
+.btn-outline-danger:hover{
+    background-color: #fff;
+    color: #009fa0;
+    border: 2px solid #fff;
+}
 @media only screen and (max-width:768px){
     .main-logo{
         width: 200px !important;
+    }
+    .chaapa{
+        font-size: 25px;
     }
 }
 
