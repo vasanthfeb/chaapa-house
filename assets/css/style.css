@@ -104,6 +104,7 @@ font-weight: 700;
 
 /* slide_container end */
 .catgory_bg{
-    background-color: #009fa0;
-    height: 100vh;
+    background-color: #009fa0 !important;
+    height: 100vh !important;
+  
 }
