@@ -110,8 +110,19 @@ font-weight: 700;
 }
 .card{
     border: none;
+    transition: all 0.4s ease;
+    
+     
 }
 .card:hover{
     background-image: linear-gradient(to bottom,#009fa0  ,#fff);
-     transition: 0.5s ease;
+     /* transform: scale(1.02); */
+   
+    
+   
+}
+.if{
+    color: #fff;
+    font-family: "Sofia Sans Semi Condensed", sans-serif;
+    font-weight: 700;
 }
