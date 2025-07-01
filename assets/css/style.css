@@ -108,3 +108,10 @@ font-weight: 700;
     height: 100vh !important;
   
 }
+.card{
+    border: none;
+}
+.card:hover{
+    background-image: linear-gradient(to bottom,#009fa0  ,#fff);
+     transition: 0.5s ease;
+}
