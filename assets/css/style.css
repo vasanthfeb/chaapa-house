@@ -103,20 +103,20 @@ font-weight: 700;
 /* slide_container start */
 
 /* slide_container end */
-.catgory_bg{
+.imported{
     background-color: #009fa0 !important;
     /* height: 100vh !important; */
   
 }
 .card{
     border: none;
-    transition: all 0.4s ease;
+    
     
      
 }
 .card:hover{
-    background-image: linear-gradient(to bottom,#009fa0  ,#fff);
-     /* transform: scale(1.02); */
+  
+     box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
    
     
    
@@ -125,4 +125,13 @@ font-weight: 700;
     color: #fff;
     font-family: "Sofia Sans Semi Condensed", sans-serif;
     font-weight: 700;
+}
+.card-title{
+    font-family: "Lexend", sans-serif;
+    text-transform: capitalize;
+    color: #009fa0;
+    font-weight: 700;
+}
+.card-img-top{
+    border-radius: 20px !important;
 }
