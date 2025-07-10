@@ -135,3 +135,8 @@ font-weight: 700;
 .card-img-top{
     border-radius: 20px !important;
 }
+.green{
+    color: #009fa0;
+     font-family: "Sofia Sans Semi Condensed", sans-serif;
+      font-weight: 700;
+}
