@@ -140,3 +140,13 @@ font-weight: 700;
      font-family: "Sofia Sans Semi Condensed", sans-serif;
       font-weight: 700;
 }
+.food-container{
+    margin-top: -70px;
+}
+.card-food{
+    background-color: #009fa0;
+    
+}
+.card-food .card-title{
+    color: #ffffff !important;
+}
