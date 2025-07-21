@@ -96,6 +96,9 @@ font-weight: 700;
     .chaapa{
         font-size: 25px;
     }
+    .food-container{
+        margin-top: -10px !important;
+    }
 }
 
 /* nav end */
